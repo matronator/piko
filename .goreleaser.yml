@@ -62,14 +62,14 @@ brews:
   - # GitHub/GitLab repository to push the formula to
     repository:
       owner: matronator
-      name: pikolang-interpreter
+      name: piko
 
     name: piko
     # Template for the url which is determined by the given Token (github or gitlab)
     # Default for github is "https://github.com/<repo_owner>/<repo_name>/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
-    url_template: "https://github.com/matronator/pikolang-interpreter/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    url_template: "https://github.com/matronator/piko/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
 
-    homepage: https://github.com/matronator/pikolang-interpreter
+    homepage: https://github.com/matronator/piko
 
     # Git author used to commit to the repository.
     # Defaults are shown.
@@ -85,7 +85,7 @@ brews:
 
     # Your app's description.
     # Default is empty.
-    description: "A simple mock server for REST APIs."
+    description: "PIKOlang (Private Innocent Kotlin Object) interpreter written in Go."
 
     # SPDX identifier of your app's license.
     # Default is empty.
