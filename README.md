@@ -4,16 +4,20 @@ An interpreter for [PIKOlang (Precision Is Kevin's Ordeal)](https://github.com/m
 
 ## Install
 
-### With `npm`
+### From binaries
+
+Download the latest binary for your platform from the Releases.
+
+<!-- ### With `npm`
 
 ```
-npm install -g pikolang
-```
+npm install -g piko
+``` -->
 
 ### With Homebrew
 
 ```
-brew install pikolang
+brew install matronator/tap/piko
 ```
 
 ## Usage
